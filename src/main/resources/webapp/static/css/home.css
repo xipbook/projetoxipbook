@@ -1,0 +1,343 @@
+@import url("../css/960_12_col.css");
+
+body {
+	color: #ffffff;
+	background-repeat:  round;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 90%;
+	margin: 0px;
+	text-align: center;}
+
+.header {
+	background-image: url("../img/book_coffe.jpg");
+	padding: 0px 0px 0px 0px;
+	height: 200px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 10;}
+
+
+.newheader {
+	height: 150px;
+}
+
+.newimag {
+	width: 200px;
+	height: 150px;}
+
+
+.painel-login {
+	display: none;
+}
+
+/*end accordion*/
+
+/*---FORMULARIO DE LOGIN---*/
+/*nova regra css quando o acordian for cliclado*/
+.itensList {
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	display: inline;
+	width: 450px;
+	visibility: visible;
+}
+
+.listHidde {
+   visibility: hidden;
+}
+
+.login {
+	background-color: lightgray;
+   height: 350px;
+   width: 350px;
+   margin-top: 20px;
+   margin-left: 0px;
+   margin-right: 30px;
+   border-radius: 10px;
+   padding: 20px;
+}
+
+legend {
+   border: 1px solid #dcdcdc;
+   background-color: #efefef;
+   border-radius: 10px;
+   padding: 10px 20px;
+   text-align: left;
+   text-transform: uppercase;
+
+}
+
+label {
+   color: black;
+}
+
+input {
+   font-size: 16px;
+   width: 200px;
+   margin-bottom: 10px;}
+
+
+
+
+input[type='search'] {
+	color: lightgray;
+	margin-top: 30px;
+	display: inline;
+	width: 250px;
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 8px;
+	border: 1px solid #999;
+	font-family: 'Oswald', 'Futura', sans-serif;
+	float: right;
+	}
+
+input[type='search']:focus{
+	color: #333;
+	border: 1px solid #fff;
+	background-color: #fff;
+	outline: none;
+}
+
+button[type='submit'] {
+	background-color: #cb6868;
+	color: #f3dad1;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	height: 25px;
+	width: 90px;
+	margin-top: 33px;
+	float: right;
+	display: inline;
+	margin-left: 0px;
+}
+
+button[type='submit']:hover {
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	text-align: center;
+}
+
+
+input#username {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 2px dotted black;
+}
+
+input#password {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 2px dotted black;
+}
+
+a#criarConta {
+	margin-top: 20px;
+	display: block;
+	text-align: right;
+}
+
+input#submit {
+   color: #ffffff;
+   background-color: #665544;
+   border-radius: 10px;
+   width: 90px;
+   height: 40px;
+   text-align: center;
+   margin-top: 20px;}
+
+input#submit:hover {
+   color: #665544;
+   background-color: #efefef;}
+
+a#lembrarsenha {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.outheroption {
+  color: black;
+	border: none;
+	border-radius: 10px;
+	width: 250px;
+  height: 30px;
+}
+
+input#facebook {
+   color: #ffffff;
+   background-color: darkblue;
+}
+
+input#gmail {
+   color: #ffffff;
+   background-color: darkred;
+}
+
+
+/*---FIM DO FORMULARIO DE LOGIN---*/
+
+.navegacao {
+   float: right;
+   font-family: QuicksandBook, Helvetica, Arial, Sans-serif;
+   padding: 125px 0px 0px 0px;
+   text-align: right;
+	margin-top: 50px;}
+
+.newNavegacao {
+}
+
+.principal {
+	position: relative;
+   /*border: 1px solid black;*/
+   width: 98%;
+   height: 850px;
+   margin-top: 200px;
+	margin-right: 10px;
+   margin-left:10px;
+	z-index: 5;	}
+
+div#conteudo {
+	display: inline-block;
+	float: left;
+   border: 1px solid black;
+   width: 200px;
+   height: 800px;
+   margin-top: 20px;
+	margin-left: 20px;}
+
+.list {
+   width: 150px;
+   height: 800px;
+   margin-top: 20px;
+	padding-left: 10px;
+	color: black;
+	list-style-type: none;
+   font-size: 18px;
+   font-weight: bold;
+   text-align: left;
+}
+
+h2 {
+	color: red;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+
+.event {
+	display: inline;
+	float:left;
+	margin-top: 30px;
+	margin-left: 50px;
+	border: 1px solid black;
+	width: 900px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.event img {
+	display: inline;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 200px;
+	height: 260px;
+	float: left;
+}
+
+p {
+	text-align: left;
+	color: gray;
+	font-size: 1.5em;
+	float: left;
+	margin-left: 10px;
+	margin-right: 5px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+img#doacao {
+	display: inline;
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+p#desclivro {
+	color: blue;
+}
+
+ul {
+	margin-top: 0px;
+}
+
+footer {
+	/*background-image: url("../img/bg-header.jpg");*/
+	height: 10px;
+}
+
+/**********  ACCORDION **********/
+.accordion {
+	background-color: #f2f2f2;
+	display: inline;
+  	color: #666;
+	margin: 0;
+  	padding: 0;
+	overflow: auto;}
+
+
+.accordion li {
+  padding: 0;
+	list-style-type: none;}
+
+.accordion-control {
+  background-color: #303030;
+  color: #fff;
+  display: block;
+  /*width: 50%;*/
+	padding: 0.5em 0.5em 0.5em 0.7em;
+  margin: 0;
+  border-top: 1px solid #666;}
+
+a.accordion-control {
+	display: inline;
+	background-color: inherit;
+	color: blue;
+	border: none;
+}
+
+button.accordion-control {
+	margin-top: 205px;
+	width: 10%;
+
+}
+.accordion-panel {
+  display: none;}
+
+.accordion-panel p {
+	font-size: 1em;
+	margin: 5px;}
+
+.nav {
+	margin-top: 20px;
+}
+
+
+form.pesquisa {
+	margin-top: 0px;
+}
+
+.link_nav {
+	margin-top: 150px;
+}

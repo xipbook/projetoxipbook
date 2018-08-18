@@ -1,0 +1,40 @@
+@import url("../css/960_12_col.css");
+
+body {
+   background-image: url("../img/Fundo.png");
+   background-repeat: round;}
+
+form {
+   margin: 150px auto 200px auto;
+   width: 700px;
+   height: 400px;
+   background-color: white;
+   border: 1px solid black;
+   padding-top: 50px;}
+
+div {
+   text-align: center;
+   border-bottom: 1px solid #efefef;
+   margin: 10px;
+   padding-bottom: 10px;
+   width: 560px;
+}
+
+div.area {
+   width: 100%;
+   margin-left: 0px;
+   height: 150px;
+   background-color: gray;
+}
+
+input {
+   width: 300px;
+}
+
+input#submit {
+   width: 80px;
+}
+
+div#submit {
+   text-align: right;
+}

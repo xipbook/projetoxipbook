@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Projeto XipBook</title>
+    <link rel="stylesheet" href="css/home.css">-->
+  </head>
+  <body>
+     <div class="header">
+        <div class="container_12">
+           <div class="grid_5">
+             <img src="img/XIP-pequeno.png" alt="Xip Book"
+               width="250" height="200" class="logo" />
+           </div><!--end nav_grid_5-->
+         <div class="nav grid_7"><!--formatação do tamanho da grade-->
+
+            <form class="pesquisa" action="" method="post">
+               <button type="submit" name="button">Pesquisar</button>
+               <input type="search" name="searck" placeholder="Entre com a pesquisa..." width="200" height="50">
+             </form>
+
+            <ul class="accordion">
+               <div class="link_nav">
+                  <li class="itensList">
+                     <a id="itensList" href="" class="accordion-control">login</a>
+                        <div class="accordion-panel">
+                           <fieldset class="login">
+                              <legend>Login</legend>
+                              <label for="username">Usuario:</label>
+                              <input id="username" type="text" name="username"><br>
+                              <label for="password">Senha:</label>
+                              <input id="password" type="password" name="password"><br>
+                              <a id="criarConta" target="_blank" href="login.html">Criar Conta</a>
+                              <input id="submit" type="submit" name="submit" value="Entrar"><br>
+                              <a id="lembrarsenha" href="">Esqueceu a senha?</a>
+                              <input class="outheroption" id="facebook" type="submit" name="facebook" value="f | Entre com o Facebook" />
+                              <input  class="outheroption" id="gmail" type="submit" name="gmail" value="g | Entre com o gmail">
+                           </fieldset>
+                  </li>
+                  <a href="producto_cadaster.html" target="_blank"><li class="itensList">Cadastro de Produtos</li></a>
+                  <li class="itensList">Estande</li>
+                  <li class="itensList">Dicas de Livros</li>
+                  <li class="itensList">Contato</li>
+              </div>
+            </div><!--end link_nav-->
+            </ul>
+         </div><!--end container_12-->
+      </div><!--end Header-->
+      <div class="principal">
+            <div  id="conteudo" >
+              <h2>Categorias</h2>
+              <a href="#" target="_blank">
+               <ul class="list">
+                  <li>Agropecuaria</li>
+                  <li>Antologia</li>
+                  <li>Audiobooks</li>
+                  <li>Aventura</li>
+                  <li>Biograficos</li>
+                  <li>Cientificos</li>
+                  <li>Contos</li>
+                  <li>Cronicas</li>
+                  <li>Didaticos</li>
+                  <li>Epicos</li>
+                  <li>Fantasia</li>
+                  <li>Ficcao Cientifica</li>
+                  <li>Ficcao Historia</li>
+                  <li>Distopicos</li>
+                  <li>Guias de Viagens</li>
+                  <li>Horror</li>
+                  <li>Infantojuvenil</li>
+                  <li>Por genero</li>
+                  <li>Infantis</li>
+                  <li>Jogos</li>
+                  <li>Manuais</li>
+                  <li>Poesia</li>
+                  <li>Politicos</li>
+               </ul>
+              </a>
+            <!--seção xml-->
+            </div>
+            <section id="content">
+            </section>
+      </div><!--end principal-->
+      <footer>
+      </footer>
+      <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+      <!--<script type="text/javascript" src="js/accordion.js"></script>-->
+      <script type="text/javascript" src="js/dadoslivro_xml.js"></script>
+      <script type="text/javascript" src="js/homepage.js"></script>
+    </body>
+</html>
