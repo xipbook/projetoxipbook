@@ -1,28 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Projeto XipBook</title>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  </head>
-  <body>
-     <div class="conteiner">
-     	<div class="jumbotron" >
-     		<img alt="" src="img/XIP-pequeno.png" />
-		  	<nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top justify-content-end">
-			  <a href="#" class="navbar-brand">Login</a>
-			  <a href="#" class="navbar-brand">Cadastro de Produtos</a>
-			  <a href="#" class="navbar-brand">Estande</a>
-			  <a href="#" class="navbar-brand">Dicas de Livro</a>
-			  <a href="#" class="navbar-brand">Contato</a>
-			  <form class="form-inline">
-			    <input class="form-control mr-sm-2" type="search" placeholder="Pesquqisar" aria-label="Pesquisar" />
-			    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-			  </form>
-			</nav>  
+<head>
+<meta charset="utf-8" />
+<title>Projeto XipBook</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/home.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="conteiner">
+		<div class="jumbotron">
+			<img alt="" src="img/XIP-pequeno.png" />
+			<nav
+				class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top justify-content-end">
+				<a href="#" class="navbar-brand">Login</a> <a href="#"
+					class="navbar-brand">Cadastro de Produtos</a> <a href="#"
+					class="navbar-brand">Estande</a> <a href="#" class="navbar-brand">Dicas
+					de Livro</a> <a href="#" class="navbar-brand">Contato</a>
+				<form class="form-inline">
+					<input class="form-control mr-sm-2" type="search"
+						placeholder="Pesquqisar" aria-label="Pesquisar" />
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+				</form>
+			</nav>
 		</div>
 	</div>
-   	
+
+	<div class="col-3" id="lista-categorias">
+		<nav class="nav flex-column">
+			<form class="form-inline">
+				    <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" />
+			</form>
+			<ul class="list-group list-group-flush">
+				<li class="list-group-item"><a class="nav-link active" href="#">Active</a></li> 
+				<li class="list-group-item"><a class="nav-link" href="#">Link</a></li> 
+				<li class="list-group-item"><a class="nav-link" href="#">Link</a></li> 
+				<li class="list-group-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+			</ul>
+		</nav>
+	</div>
+
+
+	<div class="container-fluid">
+		<div class="card-deck">
+			<div class="card">
+				<img class="rounded mx-auto d-block" src="img/deitel.jpg"
+					alt="Card image cap" />
+				<div class="card-body">
+					<h5 class="card-title">Java how to program</h5>
+					<p class="card-text">This is a longer card with supporting text
+						below as a natural lead-in to additional content. This content is
+						a little bit longer.</p>
+					<p class="card-text">
+						<small class="text-muted">Last updated 3 mins ago</small>
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="rounded mx-auto d-block" src="img/cjdate.jpg"
+					alt="Card image cap" />
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This card has supporting text below as a
+						natural lead-in to additional content.</p>
+					<p class="card-text">
+						<small class="text-muted">Last updated 3 mins ago</small>
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="rounded mx-auto d-block" src="img/kurose.jpg"
+					alt="Card image cap" />
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This is a wider card with supporting text
+						below as a natural lead-in to additional content. This card has
+						even longer content than the first to show that equal height
+						action.</p>
+					<p class="card-text">
+						<small class="text-muted">Last updated 3 mins ago</small>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-    </body>
+</body>
 </html>
