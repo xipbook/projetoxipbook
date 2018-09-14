@@ -8,7 +8,20 @@ public class XipBookController {
 	
 	@RequestMapping("/")
 	public String index() {
+		
 		return "home";
+	}
+	
+	@RequestMapping("/login")
+	public String login() {
+		
+		return "/views/login";
+	}
+	
+	@RequestMapping("/cadastroProduto")
+	public String CadastroProduto() {
+		
+		return "/views/cadastro-produto";
 	}
 	
 }
