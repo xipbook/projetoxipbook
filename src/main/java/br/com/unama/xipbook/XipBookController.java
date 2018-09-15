@@ -19,9 +19,14 @@ public class XipBookController {
 	}
 	
 	@RequestMapping("/cadastroProduto")
-	public String CadastroProduto() {
+	public String cadastroProduto() {
 		
 		return "/views/cadastro-produto";
 	}
 	
+	@RequestMapping("/cadastroUsuario")
+	public String cadastroUsuario() {
+		
+		return "/views/cadastro-usuario";
+	}
 }
