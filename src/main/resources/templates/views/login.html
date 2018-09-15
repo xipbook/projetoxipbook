@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"/>
-
-<link type="text/css" rel="stylesheet" href="css/style-login.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8" />
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+	integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+		crossorigin="anonymous" />	
+	<link type="text/css" rel="stylesheet" href="css/style-login.css" />
 </head>
 
 <body id="LoginForm">
-  <div class="container">
-    <div class="login-form">
-      <div class="main-div">
-        <div class="panel">
-         <h2>Login</h2>
-         <p>Usuário</p>
-        </div>
-        <form id="Login">
-          <div class="form-group">
-            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address" />
-          </div>
-          <div class="form-group">
-            <input type="password" class="form-control" id="inputPassword" placeholder="Password" />
-          </div>
-          <div class="forgot">
-            <a href="#">Esqueceu sua senha?</a>
-          </div>
-          <button type="submit" class="btn btn-primary">Login</button>
-        </form>
-      </div>
-    </div>
-  </div>
+	<div class="container">
+			<div class="login-form">
+				<div class="main-div">
+					<div class="panel">
+						<h2>Login</h2>
+						<p class="tipoUsuario"></p>	
+						<label class="my-1 mr-2" for="inlineFormCustomSelectPref">Opções de Login</label>
+						
+						<form class="form-inline">
+							  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+							    <option selected="selected">Escolha...</option>
+							    <option value="1">Usuario</option>
+							    <option value="2">Entidade</option>
+							    <option value="3">Admin</option>
+							  </select>
+						</form>
+						
+						
+					<form id="Login">
+						<div class="form-group">
+							<input type="email" class="form-control" id="inputEmail"
+								placeholder="Email Address" />
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control" id="inputPassword"
+								placeholder="Password" />
+						</div>
+						<div class="forgot">
+							<a href="#">Esqueceu sua senha?</a>
+						</div>
+						<button type="submit" class="btn btn-primary">Login</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
